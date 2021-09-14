@@ -1,0 +1,53 @@
+*{
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+}
+body{ 
+    position:relative;
+}
+textarea{
+    max-height: 250px;
+    margin: 0px;
+    resize: none;
+}
+
+/*cards*/
+
+#cards {
+    padding: 4em 0;
+    margin: 0;
+    border: 1px
+
+}
+#cards .row{
+    margin: 0;
+}
+
+.login{
+    position:absolute;
+    top:0;
+    background: rgb(0,0,0,0.5);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 25%;
+    max-height: 25%;
+    background: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.block{
+    display:none;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
