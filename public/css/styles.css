@@ -1,14 +1,12 @@
-*{
-    font-family: 'Montserrat', 'sans-serif';
+* {
+    font-family: 'Arial', 'sans-serif';
     text-align: center;
 }
-body{ 
-    position:relative;
-}
-textarea{
+
+textarea {
     max-height: 250px;
     margin: 0px;
-    resize: none;
+    resize: none; 
 }
 
 /*cards*/
@@ -17,23 +15,22 @@ textarea{
     padding: 4em 0;
     margin: 0;
     border: 1px
-
 }
-#cards .row{
+#cards .row {
     margin: 0;
 }
 
-.login{
+.login {
     position:absolute;
     top:0;
-    background: rgb(0,0,0,0.5);
+    background: #212529;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.login form{
+.login form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,10 +41,59 @@ textarea{
     border-radius: 30px;
     padding: 10px 30px;
 }
-.block{
+
+.block {
     display:none;
 }
-a{
-    color:black;
+
+
+/*menu*/
+.navbar  {
+    width: 100%;
+    
+    justify-content: center;
+    Display: flex;
+    align-items: center;
+}
+.nav-link {
+        color: #212529;
+    }
+
+/*carousel*/
+#banners-container .container   {
+    width: 100%;
+}
+
+/*paginação*/
+#paginação a {
+    color: #212121;
+}
+
+/*footer*/
+#footer .footer-column {
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#footer-links-container li {
+    font-size: 0.8em;
+    text-align: center;
+}
+@media (max-height: 768px){
+    #footer-links-container li {
+        text-align: left;
+    }
+}
+#footer-links-container a {
     text-decoration: none;
+    color: #212121;
+}
+#footer-links-container a hover {
+    color:aqua;
+}
+#footer-center {
+    border-left: 1px solid #626262;
+    border-right: 1px solid #626262;
 }
